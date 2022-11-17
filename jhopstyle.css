@@ -1,0 +1,25 @@
+/* mobile */
+header {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;   
+}
+
+/* tablet */
+
+section {
+    display: flexbox;
+    justify-content: center;
+    align-items: spaced;
+    width: 35%;
+    font-family: tahoma, Helvetica, sans-serif;
+    background-color: #547b96;
+}
+
+ul li{
+    display: inline;
+}
+body {
+    background: linear-gradient(120deg, #547b96, cyan);
+}
