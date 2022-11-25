@@ -23,3 +23,53 @@ ul li{
 body {
     background: linear-gradient(120deg, #547b96, cyan);
 }
+.box {
+    border: solid #030303;
+    display: grid;
+    width: 600px;
+    height: 800px;
+    grid-template-columns: 280px 280px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.box :first-child{
+    align-self: top;
+}
+
+.box :woodworking{
+    border: 2px solid #7e5015;
+    width: 240px;
+    height: 400px;
+    margin: 5;
+    padding:15px;
+}
+.box_a{
+    width: 300px;
+    height: 80px;
+    border: 2px solid black
+    margin: 5;
+    padding 0;
+}
+
+.box_b{
+    width: 300px;
+    height: 80px;
+    border: 2px solid black
+    margin: 5;
+    padding 0;
+}
+.box_c{
+    width: 300px;
+    height: 80px;
+    border: 2px solid black
+    margin: 5;
+    padding 0;
+}
+.box_d{
+    width: 300px;
+    height: 80px;
+    border: 2px solid black
+    margin: 5;
+    padding 0;
+}
