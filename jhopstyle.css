@@ -10,9 +10,9 @@ header {
 
 section {
     display: flexbox;
-    justify-content: center;
+    justify-content: right;
     align-items: spaced;
-    width: 35%;
+    width: 100%;
     font-family: tahoma, Helvetica, sans-serif;
     background-color: #547b96;
 }
@@ -23,13 +23,89 @@ ul li{
 body {
     background: linear-gradient(120deg, #547b96, cyan);
 }
+
+.flex-box{
+    display: flex;
+    border: 2px solid #black;
+    border-radius: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+    row-gap: 20px;
+    
+}
+
+img{
+    max-width: 50%;
+    display: center;
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.li{
+    height: 50%;
+    flex-wrap: wrap;
+}
+
+.flex-box{
+    border: 5px;
+    border-radius: 5%;
+    
+}
+
+.wood-box{
+    flex: 1;
+    padding: 5px;
+    order: 1;
+    border: 2px solid #8e9c6b;
+    
+}
+
+.Shadowrun-box{
+    flex: 2;
+    padding: 5px;
+    order: 2;
+    border: 2px solid #39be40;
+    
+    /* shadowrun link reference: https://www.catalystgamelabs.com/brands/shadowrun */
+}
+/*.shadowrun-box.img{
+        max-height: 40px;
+        min-width: 0, 30, 1;
+        object-fit: contain;
+        vertical-align: text-bottom;
+        
+        trying to add a border
+} */
+
+
+.gaming-box{
+    flex: 1;
+    padding: 5px;
+    order: 1;
+    border: 2px solid #d542e9;
+    
+}
+
+.merch-box{
+    flex: 1;
+    padding: 5px;
+    order: 2;
+    border: 2px solid #04660c;
+    
+}
+
 .box {
     border: solid #030303;
     display: grid;
     width: 600px;
     height: 800px;
     grid-template-columns: 280px 280px;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
 }
 
