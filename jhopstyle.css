@@ -52,26 +52,48 @@ img{
 }
 
 .flex-box{
-    border: 5px;
+    border: 15px;
     border-radius: 5%;
-    
+    flex-wrap: wrap;
+    transition: 0.5s;
 }
 
 .wood-box{
     flex: 1;
     padding: 5px;
     order: 1;
-    border: 2px solid #8e9c6b;
-    
+    border: 5px solid #8e9c6b;
+    flex-wrap: nowrap;
+    border-radius: 15%;   
 }
 
-.Shadowrun-box{
-    flex: 2;
+.wood-box:hover{
+    background-color: #7e5015;
+}
+
+.shadowrun-box{
+    align-content: flex-start;
+    justify-content: center;
+    flex: flex;
     padding: 5px;
     order: 2;
-    border: 2px solid #39be40;
-    
+    border: 5px solid #39be40;
+    width: 30em;
+    height: 20ex;
+    background-color: antiquewhite;
+    cursor: pointer;
+    color: #white;
+    font-weight: bold;
+    flex-wrap: wrap; 
+    border-radius: 15%;
     /* shadowrun link reference: https://www.catalystgamelabs.com/brands/shadowrun */
+}
+
+.shadowrun-box:hover{
+    background-color: #39be40;
+    border-color: #030303;
+    background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6hay-O6hEfHIDTMYSZLkqTZYGbxGXZLvNfd8cTfnesYUX4YQjOyCeVq8_86DKqaAATz8&usqp=CAU;
+    color: #white;
 }
 /*.shadowrun-box.img{
         max-height: 40px;
@@ -86,17 +108,32 @@ img{
 .gaming-box{
     flex: 1;
     padding: 5px;
-    order: 1;
-    border: 2px solid #d542e9;
+    order: 2;
+    border: 5px solid #d542e9;
+    border-radius: 15%; 
+    justify-self: 50%;
+    align-content:50%; 
+    color: #0e7b96;
     
+}
+
+.gaming-box:hover{
+    background-color: azure;
+    color:#d542e9;
 }
 
 .merch-box{
     flex: 1;
     padding: 5px;
     order: 2;
-    border: 2px solid #04660c;
-    
+    margin: 5px;
+    border: 5px solid #04660c;
+    border-radius: 15%    
+}
+
+.merch-box:hover{
+    background-color: #8e9c6b;
+    color: #black
 }
 
 .box {
@@ -108,44 +145,8 @@ img{
     align-items: center;
     justify-content: space-between;
 }
-
-.box :first-child{
-    align-self: top;
-}
-
-.box :woodworking{
-    border: 2px solid #7e5015;
-    width: 240px;
-    height: 400px;
-    margin: 5;
-    padding:15px;
-}
-.box_a{
-    width: 300px;
-    height: 80px;
-    border: 2px solid black
-    margin: 5;
-    padding 0;
-}
-
-.box_b{
-    width: 300px;
-    height: 80px;
-    border: 2px solid black
-    margin: 5;
-    padding 0;
-}
-.box_c{
-    width: 300px;
-    height: 80px;
-    border: 2px solid black
-    margin: 5;
-    padding 0;
-}
-.box_d{
-    width: 300px;
-    height: 80px;
-    border: 2px solid black
-    margin: 5;
-    padding 0;
+.footer{
+    font-weight: bold;
+    font-style: italic
+    justify-content: center;
 }
